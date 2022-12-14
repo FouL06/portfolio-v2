@@ -3,7 +3,9 @@
  */
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
+    title: "Ashton Foulger",
+    description: "Ashton Foulger DevOps Engineer | Fullstack Developer",
+    siteUrl: `https://FouL06.github.io`,
   },
-  plugins: [],
-}
+  plugins: [{ resolve: `gatsby-plugin-styled-components` }],
+};
