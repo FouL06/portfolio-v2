@@ -1,6 +1,6 @@
 // Import Plugins
 import React from "react";
-import logo from "../../images/Foul-Logo.svg";
+import logo from "../../images/Logo.svg";
 
 // Import CSS
 import { loaderWrapper } from "./loader.module.css";

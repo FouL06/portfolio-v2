@@ -1,0 +1,28 @@
+.navbar {
+  background-color: #000000 !important;
+}
+
+.navbar i {
+  color: #ffffff !important;
+  font-size: 35px !important;
+}
+
+.logo {
+  padding: 0px 0px 0px 10px !important;
+}
+
+.toggler {
+  border: 0 !important;
+  border-color: transparent !important;
+}
+
+.toggler:focus {
+  border: 0 !important;
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+
+.navItem {
+  color: #ffffff !important;
+  padding: 10px 20px 10px 20px !important;
+}
