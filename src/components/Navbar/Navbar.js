@@ -10,9 +10,9 @@ import Container from "react-bootstrap/Container";
 
 const Navigation = () => {
   return (
-    <Navbar expand="md" className={styles.navbar}>
+    <Navbar expand="md" variant="dark" className={styles.navbar}>
       <Container fluid>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/#Hero" id={styles.brand}>
           <img
             className={styles.logo}
             src={logo}
@@ -32,21 +32,11 @@ const Navigation = () => {
           id="responsive-navbar-nav"
         >
           <Nav>
-            <Nav.Link href="/#About" className={styles.navItem}>
-              About
-            </Nav.Link>
-            <Nav.Link href="/#Skills" className={styles.navItem}>
-              Skills
-            </Nav.Link>
-            <Nav.Link href="/#Work" className={styles.navItem}>
-              Work
-            </Nav.Link>
-            <Nav.Link href="/#Projects" className={styles.navItem}>
-              Projects
-            </Nav.Link>
-            <Nav.Link href="/#Contact" className={styles.navItem}>
-              Contact
-            </Nav.Link>
+            <Nav.Link href="/#About">About</Nav.Link>
+            <Nav.Link href="/#Skills">Skills</Nav.Link>
+            <Nav.Link href="/#Work">Work</Nav.Link>
+            <Nav.Link href="/#Projects">Projects</Nav.Link>
+            <Nav.Link href="/#Contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
